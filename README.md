@@ -42,7 +42,7 @@ const cacheMiddleware = (req, res, next) => {
 ```
 </div>
 
-🔗 Problema 2: Integração de Serviços
+## 🔗 Problema 2: Integração de Serviços
 <div style="color: #4682B4;">
 Desafio
 Conectar sistemas legados a novos serviços baseados em nuvem para garantir a comunicação entre diferentes departamentos.
@@ -60,7 +60,7 @@ channel.sendToQueue(queue, Buffer.from(JSON.stringify(message)));
 ```
 </div> 
 
-🔒 Problema 3: Segurança e Autenticação
+## 🔒 Problema 3: Segurança e Autenticação
 <div style="color: #FF6347;">
 Desafio
 Garantir a segurança em uma aplicação multiusuário, com autenticação e permissões granulares.
@@ -83,7 +83,7 @@ const checkRole = (role) => (req, res, next) => {
 ```
 </div>
 
-⚡ Problema 4: Otimização de Desempenho
+##⚡ Problema 4: Otimização de Desempenho
 <div style="color: #FFD700;">
 Desafio
 Reduzir o tempo de carregamento de páginas em uma aplicação web com grande volume de tráfego.
@@ -105,6 +105,6 @@ const loadImage = (src) => {
 ```
 </div>
 
-🔎 Conclusão
+## 🔎 Conclusão
 <div style="color: #20B2AA;"> Esses estudos de caso mostram como soluções práticas podem resolver desafios comuns no desenvolvimento de software, desde escalabilidade até segurança e desempenho. </div>
 <div align="center" style="color: #4682B4;"> *Para a comunidade dev* </div> </div> ```
