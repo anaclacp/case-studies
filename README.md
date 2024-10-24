@@ -53,7 +53,7 @@ Uso de mensageria com RabbitMQ para garantir que as mensagens entre serviços fo
 Tecnologias
 RabbitMQ
 API Gateway
-Exemplo de Código
+### Exemplo de Código
 ```javascript
 // Publicar mensagem com RabbitMQ
 channel.sendToQueue(queue, Buffer.from(JSON.stringify(message)));
@@ -71,7 +71,7 @@ Implementação de controle de acesso baseado em funções (RBAC).
 Tecnologias
 OAuth 2.0
 OpenID Connect
-Exemplo de Código
+### Exemplo de Código
 ```javascript
 // Middleware para verificar permissões de usuário
 const checkRole = (role) => (req, res, next) => {
@@ -94,7 +94,7 @@ Minificação de arquivos JavaScript e CSS.
 Tecnologias
 Webpack
 Lazy Loading
-Exemplo de Código
+### Exemplo de Código
 ```javascript
 // Exemplo de lazy loading em JavaScript
 const loadImage = (src) => {
