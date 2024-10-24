@@ -83,7 +83,7 @@ const checkRole = (role) => (req, res, next) => {
 ```
 </div>
 
-##⚡ Problema 4: Otimização de Desempenho
+##  ⚡ Problema 4: Otimização de Desempenho
 <div style="color: #FFD700;">
 Desafio
 Reduzir o tempo de carregamento de páginas em uma aplicação web com grande volume de tráfego.
